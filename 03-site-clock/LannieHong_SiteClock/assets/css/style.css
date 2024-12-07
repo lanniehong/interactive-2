@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #DAF3F1;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.sun {
+	width: 300px;
+	height: 300px;
+	left: 40vw;
+	background: #FAEA62;
+	border-radius: 50%;
+	position: absolute;
+	transition: all 2s;
+	filter: blur(0.5px);
+}
+
+.horizon {
+	width: 100vw;
+	height: 300px;
+	background: #559144;
+	position: absolute;
+	bottom: 0;
+	filter: blur(1px);
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 270px solid black;
+	opacity: 40%;
+	position: absolute;
+	bottom: 0px;
+	left: 690px;
+	z-index: 1;
+	filter: blur(10px);
+	transform-origin: center;
+}
+
+
+.person {
+	position: absolute;
+	bottom: 235px;
+	left: 810px;
+	width: 50px;
+
+}

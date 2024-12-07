@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+#all-in-one-btn {
+	width: 15vw;
+	height: 10vw;
+	border: 1px solid magenta;
+	display: grid;
+	place-items: center;
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+
+#target-image {
+	width: 40vw;
+	height: auto;
+	border: 1px solid magenta;
+	transition: all 0.5s;
+}
+
+#target-image.grayscale {
+	filter: grayscale(100%);
+}
+
+#target-image.shrink {
+	transform: rotate(45deg);
+}
+
+#target-image.reshape {
+	border-radius: 50%;
+}

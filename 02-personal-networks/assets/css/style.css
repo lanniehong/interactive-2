@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+}
+
+
+#parent {
+	width: 100vw;
+	height: 90vh;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: lightgray;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#child-1 {
+	width: 1700px;
+	height: 800px;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: -190px;
+	bottom: -20px;
+	overflow: hidden;
+	display: none;
+}
+
+#child-2 {
+	width: 90%;
+	height: 90%;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: -10px;
+	bottom: -20px;
+	overflow: hidden;
+	display: none;
+}
+
+#child-3 {
+	width: 90%;
+	height: 90%;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: -100px;
+	bottom: -50px;
+	overflow: hidden;
+	display: none;
+}
+
+#child-4 {
+	width: 90%;
+	height: 90%;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+#child-5 {
+	width: 90%;
+	height: 80%;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+#child-6 {
+	width: 90%;
+	height: 80%;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+#child-7 {
+	width: 90%;
+	height: 80%;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+#child-8 {
+	width: 90%;
+	height: 80%;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	overflow: hidden;
+	display: none;
+}
+
+p {
+	padding: 20px;
+	top: 50vh;
+	font-size: 1.2em;
+	font-family: gimlet-display, serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #5e5e5e;
+}
+
+
+#btn {
+	display: inline;
+}
+
+#btn:hover {
+	color: red;
+	cursor: pointer;
+}
+
+#window-pane {
+	width: 100%;
+	height: 30px;
+	background: gray;
+}
+
+#window-btn-grp {
+	height: 30px;	
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.window-btn {	
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.red-btn {
+	background: red;
+}
+
+.orange-btn {
+	background: orange;
+}
+
+.green-btn {
+	background: green;
+}
+
+

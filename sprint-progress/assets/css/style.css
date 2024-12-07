@@ -1,0 +1,29 @@
+body{
+	width: 100vw;
+	height: 100vh;
+}
+
+.leaf{
+	position: absolute;
+	top: 51vh;
+	animation: rotate 5s infinite alternate;
+}
+
+.redleaf{
+	position: absolute;
+	top: 52vh;
+	animation: rotate 8s infinite alternate;
+}
+
+.orangeleaf{
+	position: absolute;
+	top: 50vh;
+	animation: rotate 6.5s infinite alternate;
+}
+
+
+@keyframes rotate{
+	0% {
+		transform: translate(1000%) rotate(360deg);
+	}
+}
